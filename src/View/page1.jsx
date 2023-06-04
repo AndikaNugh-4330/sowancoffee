@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/page1.css';
 import img from '../assets/img/picture.png';
+
 function Page1() {
     return (
       <div className="container-page1">
@@ -12,9 +13,9 @@ function Page1() {
                 <p>read more...</p>
             </div>
             <div className="container-card-menu">
-                <div className="card"><img src={img}></img></div>
-                <div className="card"><img src={img}></img></div>
-                <div className="card"><img src={img}></img></div>
+                <div className="card"><img alt="img1" src={img}></img></div>
+                <div className="card"><img alt="img2" src={img}></img></div>
+                <div className="card"><img alt="img3" src={img}></img></div>
             </div>
         </div>
 

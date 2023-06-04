@@ -13,7 +13,6 @@ const Btnhamburger = () => {
       } else {
         setIcon(menu)
     };
-    
   };
   return(
     <div onClick={Btnhamburger} id="hamburger">
